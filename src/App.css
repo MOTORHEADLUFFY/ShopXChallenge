@@ -1,0 +1,56 @@
+.App{
+  font-family: Calibri
+}
+
+ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 1%;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  position: relative;
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+li:hover:not(.active) {
+  background-color: #111;
+}
+
+.tasklist {
+  margin: 10px;
+}
+
+.cross {
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #111;
+}
+
+.content{
+  padding-left: 10%;
+  text-align: left;
+}
+
+.list {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 40%;
+  background-color: #E6E6FA;
+  word-break: break-word;
+  margin: 5px;
+  border-radius: 2px;
+}
+
+.list:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
