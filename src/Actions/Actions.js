@@ -1,0 +1,5 @@
+export const COMPLETE = "COMPLETE";
+export const CHANGE_DISPLAY = "CHANGE_DISPLAY";
+export const ADD_TASK = "ADD_TASK";
+export const CLEAR_COMPLETED = "CLEAR_COMPLETED";
+export const DELETE_ACTIVITY = "DELETE_ACTIVITY";
